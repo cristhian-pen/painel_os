@@ -7,9 +7,9 @@ async function queryExec(req, res) {
 
     try {
         conn = oracledb.getConnection({
-            /*your connections informations here*/ 
+            /* your connections information here */
         });
-        result = (await conn).execute(`Select*from testeOS`
+        result = (await conn).execute(`your query here`
         )
         oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
         //console.log(await result)
