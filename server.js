@@ -36,4 +36,4 @@ async function startup() {
 startup();
 
 //ROTA QUE VAI EXECUTAR A API
-app.use('/info', queryExec);
+app.use('/api', queryExec);
